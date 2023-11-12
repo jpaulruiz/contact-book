@@ -1,0 +1,1503 @@
+2023.11.10 15:47:48 INFO  Started: Metals version 1.1.0 in folders '/Users/jpmruiz/Downloads/Contact-book 2/contact-book-app-backend' for client Visual Studio Code 1.74.3.
+2023.11.10 15:47:53 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.10 15:48:02 INFO  no build target found for /Users/jpmruiz/Downloads/Contact-book 2/contact-book-app-backend/app/security/Authenticator.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Nov 10, 2023 4:05:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.lang.reflect.InvocationTargetException
+java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:67)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+Caused by: java.lang.reflect.InvocationTargetException
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:118)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	... 11 more
+Caused by: java.nio.file.NoSuchFileException: /Users/jpmruiz/Downloads/Contact-book 2/contact-book-app-backend/app/controllers/LoginController.scala
+	at java.base/sun.nio.fs.UnixException.translateToIOException(UnixException.java:92)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106)
+	at java.base/sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111)
+	at java.base/sun.nio.fs.UnixFileSystemProvider.newByteChannel(UnixFileSystemProvider.java:261)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:379)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:431)
+	at java.base/java.nio.file.Files.readAllBytes(Files.java:3268)
+	at scala.meta.internal.io.PlatformFileIO$.slurp(PlatformFileIO.scala:45)
+	at scala.meta.internal.io.FileIO$.slurp(FileIO.scala:24)
+	at scala.meta.internal.mtags.ScalametaCommonEnrichments$XtensionAbsolutePath.toInput(ScalametaCommonEnrichments.scala:383)
+	at scala.meta.internal.metals.DefinitionProvider.fromMtags(DefinitionProvider.scala:371)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$3(DefinitionProvider.scala:291)
+	at scala.Option.orElse(Option.scala:477)
+	at scala.meta.internal.metals.DefinitionProvider.$anonfun$positionOccurrence$1(DefinitionProvider.scala:291)
+	at scala.Option.flatMap(Option.scala:283)
+	at scala.meta.internal.metals.DefinitionProvider.positionOccurrence(DefinitionProvider.scala:286)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definitionOrReferences$1(MetalsLspService.scala:2466)
+	at scala.Option.map(Option.scala:242)
+	at scala.meta.internal.metals.MetalsLspService.definitionOrReferences(MetalsLspService.scala:2462)
+	at scala.meta.internal.metals.MetalsLspService.$anonfun$definition$1(MetalsLspService.scala:1363)
+	at scala.meta.internal.metals.CancelTokens$.future(CancelTokens.scala:38)
+	at scala.meta.internal.metals.MetalsLspService.definition(MetalsLspService.scala:1362)
+	at scala.meta.internal.metals.WorkspaceLspService.definition(WorkspaceLspService.scala:354)
+	at scala.meta.metals.lsp.DelegatingScalaService.definition(DelegatingScalaService.scala:69)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	... 13 more
+
+2023.11.10 16:05:19 INFO  Shutting down server
+2023.11.10 16:05:19 INFO  shutting down Metals
+2023.11.10 16:05:19 INFO  Exiting server
+2023.11.10 16:06:06 INFO  Started: Metals version 1.1.0 in folders '/Users/jpmruiz/Downloads/Contact-book-2/contact-book-app-backend' for client Visual Studio Code 1.74.3.
+2023.11.10 16:06:13 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.10 16:06:50 INFO  Shutting down server
+2023.11.10 16:06:50 INFO  shutting down Metals
+2023.11.10 16:06:50 INFO  Exiting server
+2023.11.10 16:09:48 INFO  Started: Metals version 1.1.0 in folders '/Users/jpmruiz/Downloads/Contact-book-2/contact-book-app-backend' for client Visual Studio Code 1.74.3.
+2023.11.10 16:09:52 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.10 16:09:59 INFO  no build target found for /Users/jpmruiz/Downloads/Contact-book-2/contact-book-app-backend/app/controllers/LoginController.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.12 11:21:04 INFO  Started: Metals version 1.1.0 in folders 'D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend' for client Visual Studio Code 1.84.1.
+2023.11.12 11:21:09 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.12 11:33:53 INFO  Shutting down server
+2023.11.12 11:33:53 INFO  shutting down Metals
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@6ebae226[Shutting down, pool size = 2, active threads = 2, queued tasks = 0, completed tasks = 41]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2057)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:827)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1357)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.handleFailure(Promise.scala:444)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:435)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:504)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 13:57:24 INFO  Started: Metals version 1.1.0 in folders 'D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend' for client Visual Studio Code 1.84.2.
+2023.11.12 13:57:26 ERROR Unexpected error initializing server: 
+scala.concurrent.Future$$anon$2: Future.filter predicate is not satisfied
+
+2023.11.12 15:11:31 INFO  no build target found for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\models\domain\Contact.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Nov 12, 2023 3:11:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 19
+Nov 12, 2023 3:11:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 20
+Nov 12, 2023 3:15:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 38
+Nov 12, 2023 3:45:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 72
+2023.11.12 15:52:27 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+Nov 12, 2023 3:55:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 146
+Nov 12, 2023 3:55:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 163
+Nov 12, 2023 3:55:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 177
+Nov 12, 2023 3:55:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 198
+Nov 12, 2023 3:55:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 203
+Nov 12, 2023 4:03:12 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 273
+2023.11.12 16:03:17 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:03:20 INFO  running 'C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals6641757226009261114\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.12 16:03:21 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 16:03:21 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.12 16:03:21 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.12 16:03:21 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.12 16:03:21 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.12 16:03:21 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.11.12 16:03:21 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.11.12 16:03:21 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+2023.11.12 16:03:21 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.12 16:03:21 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.12 16:03:21 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.12 16:03:21 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 16:03:21 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.12 16:03:21 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.12 16:03:21 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.12 16:03:21 ERROR 	... 23 more
+2023.11.12 16:03:22 INFO  time: ran 'sbt bloopInstall' in 1.98s
+2023.11.12 16:03:22 ERROR sbt command failed: C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals6641757226009261114\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+Nov 12, 2023 4:03:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 325
+Exception in thread "pool-3-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 16:03:39 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:04:19 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+Nov 12, 2023 4:04:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 446
+2023.11.12 16:04:39 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+Nov 12, 2023 4:04:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 487
+Exception in thread "pool-3-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 16:04:50 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:04:50 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:05:31 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:05:33 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:06:28 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:06:39 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+Nov 12, 2023 4:06:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 687
+Nov 12, 2023 4:07:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 710
+2023.11.12 16:07:09 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 16:07:12 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+Nov 12, 2023 4:31:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 799
+2023.11.12 16:32:08 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:38:35 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:39:08 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:39:29 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:48:54 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:49:35 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 16:51:15 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:06:11 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:06:16 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:06:33 INFO  running 'C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals6784200419795325541\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.12 17:06:34 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.12 17:06:34 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:06:34 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.12 17:06:34 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.12 17:06:34 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.12 17:06:34 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.11.12 17:06:34 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.11.12 17:06:34 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+2023.11.12 17:06:34 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.12 17:06:34 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.12 17:06:34 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.12 17:06:34 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:06:34 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.12 17:06:34 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.12 17:06:34 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.12 17:06:34 ERROR 	... 23 more
+2023.11.12 17:06:34 INFO  time: ran 'sbt bloopInstall' in 1.47s
+2023.11.12 17:06:34 ERROR sbt command failed: C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals6784200419795325541\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.12 17:06:52 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:07:00 INFO  Shutting down server
+2023.11.12 17:07:00 INFO  shutting down Metals
+2023.11.12 17:07:00 INFO  Exiting server
+2023.11.12 17:07:22 INFO  Started: Metals version 1.1.0 in folders 'D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend' for client Visual Studio Code 1.84.2.
+2023.11.12 17:07:24 WARN  Build server is not auto-connectable.
+2023.11.12 17:07:24 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:07:25 INFO  skipping build import with status 'Failed'
+2023.11.12 17:07:30 INFO  no build target found for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.12 17:07:33 INFO  time: code lens generation in 2.88s
+2023.11.12 17:07:33 INFO  time: code lens generation in 3.44s
+2023.11.12 17:07:33 INFO  time: code lens generation in 7.57s
+2023.11.12 17:07:42 INFO  running 'C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals9663916248550548556\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.12 17:07:43 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.12 17:07:43 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:07:43 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.12 17:07:43 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.12 17:07:43 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.12 17:07:43 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.11.12 17:07:43 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.11.12 17:07:43 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+2023.11.12 17:07:43 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.12 17:07:43 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.12 17:07:43 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.12 17:07:43 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:07:43 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.12 17:07:43 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.12 17:07:43 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.12 17:07:43 ERROR 	... 23 more
+2023.11.12 17:07:44 INFO  time: ran 'sbt bloopInstall' in 1.44s
+2023.11.12 17:07:44 ERROR sbt command failed: C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals9663916248550548556\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.12 17:07:56 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sc
+2023.11.12 17:08:00 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sbt
+2023.11.12 17:08:02 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sc
+2023.11.12 17:08:06 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sbt
+2023.11.12 17:08:07 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sc
+2023.11.12 17:08:15 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\build.sc
+2023.11.12 17:08:26 INFO  running 'C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals18181153849418903523\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.12 17:08:27 INFO  sbt thinks that server is already booting because of this exception:
+2023.11.12 17:08:27 ERROR sbt.internal.ServerAlreadyBootingException: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:08:27 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:357)
+2023.11.12 17:08:27 ERROR 	at sbt.internal.BootServerSocket.<init>(BootServerSocket.java:296)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain$.getSocketOrExit(Main.scala:152)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain$.bootServerSocket$lzycompute$1(Main.scala:78)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain$.bootServerSocket$1(Main.scala:78)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain$.withStreams$1(Main.scala:86)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain$.run(Main.scala:123)
+2023.11.12 17:08:27 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2023.11.12 17:08:27 ERROR 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+2023.11.12 17:08:27 ERROR 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+2023.11.12 17:08:27 ERROR 	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+2023.11.12 17:08:27 ERROR 	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)
+2023.11.12 17:08:27 ERROR 	at sbt.xMain.run(Main.scala:47)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.run(Launch.scala:149)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.launch(Launch.scala:159)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:44)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Launch$.apply(Launch.scala:21)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Boot$.runImpl(Boot.scala:78)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Boot$.run(Boot.scala:73)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Boot$.main(Boot.scala:21)
+2023.11.12 17:08:27 ERROR 	at xsbt.boot.Boot.main(Boot.scala)
+2023.11.12 17:08:27 ERROR Caused by: java.io.IOException: Could not create lock for \\.\pipe\sbt-load-2120757519063964113_lock, error 5
+2023.11.12 17:08:27 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:129)
+2023.11.12 17:08:27 ERROR 	at org.scalasbt.ipcsocket.Win32NamedPipeServerSocket.<init>(Win32NamedPipeServerSocket.java:48)
+2023.11.12 17:08:27 ERROR 	at sbt.internal.BootServerSocket.newSocket(BootServerSocket.java:351)
+2023.11.12 17:08:27 ERROR 	... 23 more
+2023.11.12 17:08:27 INFO  time: ran 'sbt bloopInstall' in 1.34s
+2023.11.12 17:08:27 ERROR sbt command failed: C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals18181153849418903523\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall
+2023.11.12 17:08:42 INFO  Shutting down server
+2023.11.12 17:08:42 INFO  shutting down Metals
+2023.11.12 17:08:42 INFO  Exiting server
+2023.11.12 17:09:18 INFO  Started: Metals version 1.1.0 in folders 'D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend' for client Visual Studio Code 1.84.2.
+2023.11.12 17:09:20 WARN  Build server is not auto-connectable.
+2023.11.12 17:09:20 WARN  no build target for: D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:09:20 INFO  skipping build import with status 'Failed'
+2023.11.12 17:09:22 INFO  running 'C:\Program Files\Java\jdk-14\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\User1\AppData\Local\Temp\metals16753627627950953305\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.11.12 17:09:27 INFO  [info] welcome to sbt 1.9.7 (Oracle Corporation Java 14)
+2023.11.12 17:09:28 INFO  no build target found for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.12 17:09:29 INFO  [info] loading settings for project contact-book-app-backend-build-build-build from metals.sbt ...
+2023.11.12 17:09:30 INFO  [info] loading project definition from D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\project\project\project
+2023.11.12 17:09:31 INFO  [info] loading settings for project contact-book-app-backend-build-build from metals.sbt ...
+2023.11.12 17:09:31 INFO  [info] loading project definition from D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\project\project
+2023.11.12 17:09:33 INFO  time: code lens generation in 7.38s
+2023.11.12 17:09:33 INFO  time: code lens generation in 13s
+2023.11.12 17:09:36 INFO  [success] Generated .bloop\contact-book-app-backend-build-build.json
+2023.11.12 17:09:36 INFO  [success] Total time: 4 s, completed Nov 12, 2023, 5:09:36 PM
+2023.11.12 17:09:36 INFO  [info] loading settings for project contact-book-app-backend-build from metals.sbt,plugins.sbt ...
+2023.11.12 17:09:36 INFO  [info] loading project definition from D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\project
+2023.11.12 17:09:39 INFO  [success] Generated .bloop\contact-book-app-backend-build.json
+2023.11.12 17:09:39 INFO  [success] Total time: 3 s, completed Nov 12, 2023, 5:09:39 PM
+2023.11.12 17:09:39 INFO  [info] loading settings for project root from build.sbt ...
+2023.11.12 17:09:40 INFO  [info]   __              __
+2023.11.12 17:09:40 INFO  [info]   \ \     ____   / /____ _ __  __
+2023.11.12 17:09:40 INFO  [info]    \ \   / __ \ / // __ `// / / /
+2023.11.12 17:09:40 INFO  [info]    / /  / /_/ // // /_/ // /_/ /
+2023.11.12 17:09:40 INFO  [info]   /_/  / .___//_/ \__,_/ \__, /
+2023.11.12 17:09:40 INFO  [info]       /_/               /____/
+2023.11.12 17:09:40 INFO  [info] 
+2023.11.12 17:09:40 INFO  [info] Version 3.0.0 running Java 14
+2023.11.12 17:09:40 INFO  [info] 
+2023.11.12 17:09:40 INFO  [info] Play is run entirely by the community. Please consider contributing and/or donating:
+2023.11.12 17:09:40 INFO  [info] https://www.playframework.com/sponsors
+2023.11.12 17:09:40 INFO  [info] 
+2023.11.12 17:09:40 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.11.12 17:09:40 INFO  [info]   Java version is 14. Play supports only Java 11, 17 and 21.
+2023.11.12 17:09:40 INFO  [info] !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+2023.11.12 17:09:40 INFO  [info] 
+2023.11.12 17:09:45 INFO  [success] Generated .bloop\root.json
+2023.11.12 17:09:45 INFO  [success] Generated .bloop\root-test.json
+2023.11.12 17:09:45 INFO  [success] Total time: 6 s, completed Nov 12, 2023, 5:09:46 PM
+2023.11.12 17:09:46 INFO  time: ran 'sbt bloopInstall' in 24s
+2023.11.12 17:09:46 INFO  Attempting to connect to the build server...
+2023.11.12 17:09:46 INFO  Bloop uses C:\Program Files\Java\jdk-14 defined at C:\Users\User1\.bloop\bloop.json
+2023.11.12 17:09:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\bsp.trace.json or C:\Users\User1\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.12 17:09:54 INFO  Attempting to connect to the build server...
+2023.11.12 17:09:54 INFO  Bloop uses C:\Program Files\Java\jdk-14 defined at C:\Users\User1\.bloop\bloop.json
+2023.11.12 17:09:54 INFO  Attempting to connect to the build server...
+2023.11.12 17:09:54 INFO  Bloop uses C:\Program Files\Java\jdk-14 defined at C:\Users\User1\.bloop\bloop.json
+2023.11.12 17:09:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\project\project\.metals\bsp.trace.json or C:\Users\User1\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.12 17:09:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\project\.metals\bsp.trace.json or C:\Users\User1\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.11.12 17:09:54 INFO  time: Connected to build server in 8.55s
+2023.11.12 17:09:54 INFO  Connected to Build server: Bloop v1.5.11
+2023.11.12 17:09:55 INFO  time: Imported build in 0.56s
+2023.11.12 17:09:57 INFO  no build target found for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.11.12 17:09:57 INFO  time: code lens generation in 2.77s
+Nov 12, 2023 5:10:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 93
+2023.11.12 17:10:13 INFO  compiling root (16 scala sources and 1 java source)
+2023.11.12 17:10:17 INFO  time: indexed workspace in 21s
+2023.11.12 17:10:37 INFO  time: compiled root in 23s
+2023.11.12 17:10:39 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 44.596s)
+2023.11.12 17:10:39 INFO  compiling root (1 scala source)
+2023.11.12 17:10:39 INFO  compiling root (1 scala source)
+2023.11.12 17:10:41 INFO  time: compiled root in 2.01s
+2023.11.12 17:10:41 INFO  compiling root-test (1 scala source)
+2023.11.12 17:10:50 INFO  time: compiled root-test in 8.86s
+2023.11.12 17:11:17 INFO  compiling root (1 scala source)
+2023.11.12 17:11:17 INFO  time: compiled root in 0.63s
+2023.11.12 17:11:39 INFO  compiling root (1 scala source)
+2023.11.12 17:11:39 INFO  time: compiled root in 0.58s
+2023.11.12 17:12:06 INFO  compiling root (1 scala source)
+2023.11.12 17:12:06 INFO  time: compiled root in 0.54s
+2023.11.12 17:12:12 INFO  compiling root (1 scala source)
+2023.11.12 17:12:12 INFO  time: compiled root in 0.58s
+Nov 12, 2023 5:13:29 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 436
+2023.11.12 17:13:31 INFO  compiling root (1 scala source)
+2023.11.12 17:13:31 INFO  time: compiled root in 0.58s
+2023.11.12 17:13:46 INFO  compiling root (1 scala source)
+2023.11.12 17:13:46 INFO  time: compiled root in 0.68s
+Nov 12, 2023 5:14:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 499
+2023.11.12 17:14:57 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:14:57 INFO  compiling root (1 scala source)
+2023.11.12 17:14:57 INFO  time: compiled root in 0.68s
+2023.11.12 17:18:46 INFO  compiling root (1 scala source)
+2023.11.12 17:18:46 INFO  time: compiled root in 0.44s
+2023.11.12 17:19:08 INFO  compiling root (1 scala source)
+2023.11.12 17:19:08 INFO  time: compiled root in 0.51s
+2023.11.12 17:22:17 INFO  compiling root-test (1 scala source)
+2023.11.12 17:22:20 INFO  time: compiled root-test in 2.88s
+2023.11.12 17:22:42 INFO  compiling root (1 scala source)
+2023.11.12 17:22:42 INFO  time: compiled root in 0.66s
+2023.11.12 17:23:32 INFO  compiling root (1 scala source)
+2023.11.12 17:23:32 INFO  time: compiled root in 0.53s
+2023.11.12 17:23:48 INFO  compiling root (1 scala source)
+2023.11.12 17:23:48 INFO  time: compiled root in 0.41s
+2023.11.12 17:25:50 INFO  compiling root (1 scala source)
+2023.11.12 17:25:50 INFO  time: compiled root in 0.48s
+2023.11.12 17:26:24 INFO  compiling root-test (1 scala source)
+2023.11.12 17:26:26 INFO  time: compiled root-test in 2.45s
+2023.11.12 17:45:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:45:55 INFO  compiling root (1 scala source)
+2023.11.12 17:45:55 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 17:45:55 INFO  time: compiled root in 0.41s
+Nov 12, 2023 5:48:26 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1047
+Nov 12, 2023 5:48:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1068
+2023.11.12 17:50:35 INFO  compiling root (10 scala sources)
+2023.11.12 17:50:39 INFO  time: compiled root in 3.61s
+2023.11.12 17:51:12 INFO  compiling root (6 scala sources and 1 java source)
+2023.11.12 17:51:20 INFO  time: compiled root in 7.91s
+2023.11.12 17:51:53 INFO  compiling root (1 scala source)
+2023.11.12 17:51:53 INFO  time: compiled root in 0.39s
+2023.11.12 17:54:17 INFO  compiling root (1 scala source)
+2023.11.12 17:54:17 INFO  time: compiled root in 0.57s
+2023.11.12 17:59:33 INFO  compiling root (1 scala source)
+2023.11.12 17:59:33 INFO  time: compiled root in 0.58s
+2023.11.12 18:00:31 INFO  compiling root (1 scala source)
+2023.11.12 18:00:31 INFO  time: compiled root in 0.47s
+2023.11.12 18:03:05 INFO  compiling root (1 scala source)
+2023.11.12 18:03:05 INFO  time: compiled root in 0.34s
+2023.11.12 18:05:07 INFO  compiling root-test (1 scala source)
+2023.11.12 18:05:09 INFO  time: compiled root-test in 2.21s
+2023.11.12 18:05:12 INFO  compiling root-test (1 scala source)
+2023.11.12 18:05:13 INFO  time: compiled root-test in 1.65s
+2023.11.12 18:05:21 INFO  compiling root (1 scala source)
+2023.11.12 18:05:21 INFO  time: compiled root in 0.24s
+2023.11.12 18:05:38 INFO  compiling root (1 scala source)
+2023.11.12 18:05:39 INFO  time: compiled root in 1.69s
+2023.11.12 18:05:55 INFO  compiling root (1 scala source)
+2023.11.12 18:05:55 INFO  time: compiled root in 0.4s
+2023.11.12 18:06:00 INFO  compiling root (1 scala source)
+2023.11.12 18:06:02 INFO  time: compiled root in 1.51s
+Exception in thread "pool-6-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 18:06:44 WARN  Using indexes to guess the definition of Ok
+2023.11.12 18:06:54 INFO  compiling root (1 scala source)
+2023.11.12 18:06:55 INFO  time: compiled root in 1.83s
+2023.11.12 18:07:05 INFO  compiling root (1 scala source)
+2023.11.12 18:07:05 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 57m 11.108s)
+2023.11.12 18:07:05 INFO  compiling root (1 scala source)
+2023.11.12 18:07:07 INFO  time: compiled root in 1.69s
+2023.11.12 18:07:32 INFO  compiling root (1 scala source)
+2023.11.12 18:07:34 INFO  time: compiled root in 1.63s
+Nov 12, 2023 6:07:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1859
+2023.11.12 18:07:50 INFO  compiling root (1 scala source)
+2023.11.12 18:07:51 INFO  time: compiled root in 1.44s
+Nov 12, 2023 6:08:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1902
+2023.11.12 18:08:10 INFO  compiling root (1 scala source)
+2023.11.12 18:08:10 INFO  time: compiled root in 0.16s
+2023.11.12 18:08:14 INFO  compiling root (1 scala source)
+2023.11.12 18:08:14 INFO  time: compiled root in 0.23s
+2023.11.12 18:08:45 INFO  compiling root (1 scala source)
+2023.11.12 18:08:45 INFO  time: compiled root in 0.26s
+2023.11.12 18:08:49 INFO  compiling root (1 scala source)
+2023.11.12 18:08:49 INFO  time: compiled root in 0.35s
+2023.11.12 18:09:45 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:45 INFO  compiling root (1 scala source)
+2023.11.12 18:09:45 INFO  time: compiled root in 0.94s
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:48 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:49 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+Nov 12, 2023 6:09:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2067
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:52 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:54 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:56 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:09:56 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+Nov 12, 2023 6:09:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_18-09-57-545.md
+2023.11.12 18:09:58 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:03 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:04 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:05 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:11 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:16 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:17 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:23 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:23 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:24 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:25 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:26 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:26 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:29 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:31 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:33 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:35 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:37 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:39 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:40 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:42 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:43 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:49 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:55 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:56 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 18:10:56 INFO  compiling root (1 scala source)
+2023.11.12 18:10:56 INFO  time: compiled root in 0.49s
+2023.11.12 18:15:14 INFO  compiling root (1 scala source)
+2023.11.12 18:15:14 INFO  time: compiled root in 0.61s
+2023.11.12 18:16:14 INFO  compiling root (1 scala source)
+2023.11.12 18:16:14 INFO  time: compiled root in 0.46s
+2023.11.12 18:16:49 INFO  compiling root (1 scala source)
+2023.11.12 18:16:49 INFO  time: compiled root in 0.4s
+2023.11.12 18:17:13 INFO  compiling root (1 scala source)
+2023.11.12 18:17:13 INFO  time: compiled root in 0.35s
+Nov 12, 2023 6:17:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2528
+2023.11.12 18:21:58 INFO  compiling root (1 scala source)
+2023.11.12 18:21:58 INFO  time: compiled root in 0.33s
+2023.11.12 18:26:56 INFO  time: code lens generation in 2.33s
+Nov 12, 2023 6:28:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2661
+2023.11.12 18:28:57 INFO  compiling root (1 scala source)
+2023.11.12 18:28:57 INFO  time: compiled root in 0.42s
+2023.11.12 18:29:35 INFO  compiling root (1 scala source)
+2023.11.12 18:29:35 INFO  time: compiled root in 0.4s
+2023.11.12 18:29:59 INFO  compiling root (1 scala source)
+2023.11.12 18:29:59 INFO  time: compiled root in 0.52s
+Nov 12, 2023 7:14:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2858
+Nov 12, 2023 7:22:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2962
+2023.11.12 19:22:53 INFO  compiling root (1 scala source)
+2023.11.12 19:22:54 INFO  time: compiled root in 1.18s
+2023.11.12 19:23:47 INFO  compiling root (1 scala source)
+2023.11.12 19:23:47 INFO  time: compiled root in 0.56s
+2023.11.12 19:24:02 INFO  compiling root (1 scala source)
+2023.11.12 19:24:02 INFO  time: compiled root in 0.55s
+2023.11.12 19:26:36 INFO  compiling root (1 scala source)
+2023.11.12 19:26:36 INFO  time: compiled root in 0.41s
+2023.11.12 19:27:09 INFO  compiling root (1 scala source)
+2023.11.12 19:27:10 INFO  time: compiled root in 1.26s
+2023.11.12 19:27:50 INFO  compiling root (1 scala source)
+2023.11.12 19:27:50 INFO  time: compiled root in 0.86s
+2023.11.12 19:27:58 INFO  compiling root (1 scala source)
+2023.11.12 19:27:58 INFO  time: compiled root in 0.4s
+Nov 12, 2023 7:29:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3424
+2023.11.12 19:30:38 INFO  compiling root (1 scala source)
+2023.11.12 19:30:38 INFO  time: compiled root in 0.61s
+Nov 12, 2023 7:31:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3590
+2023.11.12 19:31:55 INFO  compiling root (1 scala source)
+2023.11.12 19:31:55 INFO  time: compiled root in 0.45s
+2023.11.12 19:32:13 INFO  compiling root (1 scala source)
+2023.11.12 19:32:13 INFO  time: compiled root in 0.51s
+2023.11.12 19:34:29 INFO  compiling root (1 scala source)
+2023.11.12 19:34:29 INFO  time: compiled root in 0.88s
+2023.11.12 19:35:00 INFO  compiling root (1 scala source)
+2023.11.12 19:35:01 INFO  time: compiled root in 1s
+2023.11.12 19:35:15 INFO  compiling root (1 scala source)
+2023.11.12 19:35:16 INFO  time: compiled root in 1.04s
+2023.11.12 19:35:55 INFO  compiling root (1 scala source)
+2023.11.12 19:35:55 INFO  time: compiled root in 0.92s
+2023.11.12 19:36:06 INFO  compiling root (1 scala source)
+2023.11.12 19:36:06 INFO  time: compiled root in 0.87s
+2023.11.12 19:36:30 INFO  compiling root (1 scala source)
+2023.11.12 19:36:30 INFO  time: compiled root in 0.36s
+2023.11.12 19:37:09 INFO  compiling root (1 scala source)
+2023.11.12 19:37:09 INFO  time: compiled root in 0.54s
+2023.11.12 19:37:40 INFO  compiling root (1 scala source)
+2023.11.12 19:37:40 INFO  time: compiled root in 0.34s
+2023.11.12 19:37:51 INFO  compiling root-test (1 scala source)
+2023.11.12 19:37:53 INFO  time: compiled root-test in 1.95s
+2023.11.12 19:38:11 INFO  compiling root (1 scala source)
+2023.11.12 19:38:11 INFO  time: compiled root in 0.79s
+2023.11.12 19:38:18 ERROR Failed to tokenize input for semantic tokens for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+scala.meta.tokenizers.TokenizeException: <input>:27: error: unclosed string interpolation
+            block(new UserRequest(Some("Authenticated)"Authenticated", request))
+                                                                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringPart(LegacyScanner.scala:659)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:357)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+
+error while checking new UserRequest(Some(null: <notype>))
+error while checking block(new UserRequest(Some(null: <notype>)))
+error while checking if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+error while checking {
+  if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+  Authenticated), request))else Future null
+}
+error while checking override def invokeBlock[A](request: Request[A],
+  block: (UserRequest[A]) => Future[Result]): Future[Result] =
+  {
+    if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+    Authenticated), request))else Future null
+  }
+error while checking  @Inject  this(private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking @Singleton class Authenticator @Inject  this(
+  private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking package models.security {
+  import javax.inject.*
+  import play.api.*
+  import play.api.mvc.*
+  import scala.concurrent.Future
+  import models.repo.UserRepo
+  import scala.concurrent.*
+  import play.api.libs.json.*
+  import play.api.libs.*
+  import scala.collection.mutable.ListBuffer
+  class UserRequest[A](val auth: Option[String],
+    private[this] val request: Request[A]) extends WrappedRequest[A](request) {}
+  @Singleton class Authenticator @Inject  this(
+    private[this] val bodyParser: BodyParsers.Default,
+    private[this] val list: UserRepo)(using
+    private[this] given val ec: ExecutionContext) extends ActionBuilder[
+    UserRequest, AnyContent] {
+    val logger = Logger(this.getClass)
+    def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+    protected def executionContext: scala.concurrent.ExecutionContext = ec
+    override def invokeBlock[A](request: Request[A],
+      block: (UserRequest[A]) => Future[Result]): Future[Result] =
+      {
+        if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+        Authenticated), request))else Future null
+      }
+    def getAuth[A](request: Request[A]): Boolean =
+      {
+        request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+          {
+            case Some(value) =>
+              request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+                cookie =>
+                  {
+                    val parts = cookie.split("=")
+                    if parts(1) == value then true else false
+                  }
+              )(0)
+            case None =>
+              false
+          }
+      }
+  }
+}
+Nov 12, 2023 7:38:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_19-38-20-577.md
+error while checking new UserRequest(Some(null: <notype>))
+error while checking block(new UserRequest(Some(null: <notype>)))
+error while checking if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+error while checking {
+  if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+  Authenticated), request))else Future null
+}
+error while checking override def invokeBlock[A](request: Request[A],
+  block: (UserRequest[A]) => Future[Result]): Future[Result] =
+  {
+    if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+    Authenticated), request))else Future null
+  }
+error while checking  @Inject  this(private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking @Singleton class Authenticator @Inject  this(
+  private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking package models.security {
+  import javax.inject.*
+  import play.api.*
+  import play.api.mvc.*
+  import scala.concurrent.Future
+  import models.repo.UserRepo
+  import scala.concurrent.*
+  import play.api.libs.json.*
+  import play.api.libs.*
+  import scala.collection.mutable.ListBuffer
+  class UserRequest[A](val auth: Option[String],
+    private[this] val request: Request[A]) extends WrappedRequest[A](request) {}
+  @Singleton class Authenticator @Inject  this(
+    private[this] val bodyParser: BodyParsers.Default,
+    private[this] val list: UserRepo)(using
+    private[this] given val ec: ExecutionContext) extends ActionBuilder[
+    UserRequest, AnyContent] {
+    val logger = Logger(this.getClass)
+    def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+    protected def executionContext: scala.concurrent.ExecutionContext = ec
+    override def invokeBlock[A](request: Request[A],
+      block: (UserRequest[A]) => Future[Result]): Future[Result] =
+      {
+        if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+        Authenticated), request))else Future null
+      }
+    def getAuth[A](request: Request[A]): Boolean =
+      {
+        request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+          {
+            case Some(value) =>
+              request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+                cookie =>
+                  {
+                    val parts = cookie.split("=")
+                    if parts(1) == value then true else false
+                  }
+              )(0)
+            case None =>
+              false
+          }
+      }
+  }
+}
+Nov 12, 2023 7:38:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_19-38-20-989.md
+2023.11.12 19:38:20 WARN  Could not find semantic tokens for: file:///D:/Practice/ScalaXVue/Contact-book-2/Contact-book-2/contact-book-app-backend/app/security/Authenticator.scala
+error while checking new UserRequest(Some(null: <notype>))
+error while checking block(new UserRequest(Some(null: <notype>)))
+error while checking if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+error while checking {
+  if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+  Authenticated), request))else Future null
+}
+error while checking override def invokeBlock[A](request: Request[A],
+  block: (UserRequest[A]) => Future[Result]): Future[Result] =
+  {
+    if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+    Authenticated), request))else Future null
+  }
+error while checking  @Inject  this(private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking @Singleton class Authenticator @Inject  this(
+  private[this] val bodyParser: BodyParsers.Default,
+  private[this] val list: UserRepo)(using
+  private[this] given val ec: ExecutionContext) extends ActionBuilder[
+  UserRequest, AnyContent] {
+  val logger = Logger(this.getClass)
+  def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+  protected def executionContext: scala.concurrent.ExecutionContext = ec
+  override def invokeBlock[A](request: Request[A],
+    block: (UserRequest[A]) => Future[Result]): Future[Result] =
+    {
+      if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+      Authenticated), request))else Future null
+    }
+  def getAuth[A](request: Request[A]): Boolean =
+    {
+      request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+        {
+          case Some(value) =>
+            request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+              cookie =>
+                {
+                  val parts = cookie.split("=")
+                  if parts(1) == value then true else false
+                }
+            )(0)
+          case None =>
+            false
+        }
+    }
+}
+error while checking package models.security {
+  import javax.inject.*
+  import play.api.*
+  import play.api.mvc.*
+  import scala.concurrent.Future
+  import models.repo.UserRepo
+  import scala.concurrent.*
+  import play.api.libs.json.*
+  import play.api.libs.*
+  import scala.collection.mutable.ListBuffer
+  class UserRequest[A](val auth: Option[String],
+    private[this] val request: Request[A]) extends WrappedRequest[A](request) {}
+  @Singleton class Authenticator @Inject  this(
+    private[this] val bodyParser: BodyParsers.Default,
+    private[this] val list: UserRepo)(using
+    private[this] given val ec: ExecutionContext) extends ActionBuilder[
+    UserRequest, AnyContent] {
+    val logger = Logger(this.getClass)
+    def parser: play.api.mvc.BodyParser[play.api.mvc.AnyContent] = bodyParser
+    protected def executionContext: scala.concurrent.ExecutionContext = ec
+    override def invokeBlock[A](request: Request[A],
+      block: (UserRequest[A]) => Future[Result]): Future[Result] =
+      {
+        if getAuth(request) then block(new UserRequest(Some(null: <notype>)))
+        Authenticated), request))else Future null
+      }
+    def getAuth[A](request: Request[A]): Boolean =
+      {
+        request.cookies.get("PLAY3").map(_$1 => _$1.value) match
+          {
+            case Some(value) =>
+              request.headers.toMap.get("cookie").getOrElse(List[String]()).map(
+                cookie =>
+                  {
+                    val parts = cookie.split("=")
+                    if parts(1) == value then true else false
+                  }
+              )(0)
+            case None =>
+              false
+          }
+      }
+  }
+}
+Nov 12, 2023 7:38:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_19-38-21-081.md
+2023.11.12 19:38:22 INFO  compiling root (1 scala source)
+2023.11.12 19:38:22 INFO  time: compiled root in 0.46s
+Exception in thread "pool-6-thread-2" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 19:42:26 INFO  compiling root (1 scala source)
+2023.11.12 19:42:26 INFO  time: compiled root in 0.6s
+2023.11.12 19:43:11 INFO  compiling root (1 scala source)
+2023.11.12 19:43:11 INFO  time: compiled root in 0.37s
+2023.11.12 19:44:46 INFO  compiling root (1 scala source)
+2023.11.12 19:44:46 INFO  time: compiled root in 0.46s
+2023.11.12 19:50:25 INFO  compiling root (1 scala source)
+2023.11.12 19:50:25 INFO  time: compiled root in 0.37s
+Nov 12, 2023 8:02:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4661
+2023.11.12 20:03:15 INFO  compiling root (1 scala source)
+2023.11.12 20:03:15 INFO  time: compiled root in 0.33s
+2023.11.12 20:03:38 ERROR Failed to tokenize input for semantic tokens for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+scala.meta.tokenizers.TokenizeException: <input>:36: error: unclosed string literal
+                        println(s"cookie: ${parts(1)")
+                                                    ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.getStringLit(LegacyScanner.scala:553)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchDoubleQuote$1(LegacyScanner.scala:372)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:376)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+
+2023.11.12 20:03:40 INFO  compiling root (1 scala source)
+2023.11.12 20:03:40 INFO  time: compiled root in 0.18s
+2023.11.12 20:03:48 INFO  compiling root (1 scala source)
+2023.11.12 20:03:48 INFO  time: compiled root in 0.45s
+2023.11.12 20:03:50 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 20:03:51 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 20:03:55 INFO  compiling root (1 scala source)
+2023.11.12 20:03:55 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\security\Authenticator.scala
+2023.11.12 20:03:55 INFO  time: compiled root in 0.32s
+Nov 12, 2023 8:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4874
+Nov 12, 2023 8:05:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4881
+2023.11.12 20:06:10 INFO  compiling root (1 scala source)
+2023.11.12 20:06:10 INFO  time: compiled root in 0.76s
+2023.11.12 20:06:13 INFO  compiling root (1 scala source)
+2023.11.12 20:06:13 INFO  time: compiled root in 0.94s
+2023.11.12 20:07:03 INFO  compiling root (1 scala source)
+2023.11.12 20:07:03 INFO  time: compiled root in 0.56s
+Nov 12, 2023 8:07:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4941
+Nov 12, 2023 8:07:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4945
+2023.11.12 20:09:13 INFO  compiling root (1 scala source)
+2023.11.12 20:09:13 INFO  time: compiled root in 0.24s
+2023.11.12 20:09:15 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\LoginController.scala
+2023.11.12 20:10:15 INFO  compiling root (1 scala source)
+2023.11.12 20:10:15 INFO  time: compiled root in 0.54s
+Nov 12, 2023 8:11:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5150
+2023.11.12 20:27:03 INFO  compiling root (1 scala source)
+2023.11.12 20:27:03 INFO  time: compiled root in 0.57s
+2023.11.12 20:27:38 INFO  compiling root (1 scala source)
+2023.11.12 20:27:38 INFO  time: compiled root in 0.51s
+2023.11.12 20:29:06 INFO  compiling root (3 scala sources)
+2023.11.12 20:29:06 INFO  time: compiled root in 0.86s
+2023.11.12 21:48:22 INFO  time: code lens generation in 3.31s
+2023.11.12 21:48:22 INFO  time: code lens generation in 5.07s
+2023.11.12 21:50:21 INFO  compiling root (1 scala source)
+2023.11.12 21:50:21 INFO  time: compiled root in 0.29s
+2023.11.12 21:50:21 WARN  Could not find semantic tokens for: file:///D:/Practice/ScalaXVue/Contact-book-2/Contact-book-2/contact-book-app-backend/app/pekko/ManagerActor.scala
+2023.11.12 21:50:41 INFO  compiling root (1 scala source)
+2023.11.12 21:50:41 INFO  time: compiled root in 0.33s
+2023.11.12 21:51:11 INFO  compiling root (1 scala source)
+2023.11.12 21:51:11 INFO  time: compiled root in 0.26s
+2023.11.12 21:52:02 INFO  compiling root (1 scala source)
+2023.11.12 21:52:02 INFO  time: compiled root in 0.59s
+2023.11.12 21:52:22 INFO  compiling root (1 scala source)
+2023.11.12 21:52:22 INFO  time: compiled root in 0.16s
+2023.11.12 21:52:39 INFO  compiling root (1 scala source)
+2023.11.12 21:52:39 INFO  time: compiled root in 0.25s
+2023.11.12 21:53:11 INFO  compiling root (2 scala sources)
+2023.11.12 21:53:11 INFO  time: compiled root in 0.6s
+Nov 12, 2023 9:53:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5635
+Nov 12, 2023 9:54:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5640
+Nov 12, 2023 9:54:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5645
+Nov 12, 2023 9:55:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5651
+2023.11.12 21:55:47 WARN  Could not find semantic tokens for: file:///D:/Practice/ScalaXVue/Contact-book-2/Contact-book-2/contact-book-app-backend/app/controllers/PekkoController.scala
+2023.11.12 21:55:47 INFO  compiling root (1 scala source)
+2023.11.12 21:55:47 INFO  time: compiled root in 0.5s
+Nov 12, 2023 9:56:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5700
+Exception in thread "pool-6-thread-3" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:230)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+2023.11.12 21:56:05 INFO  compiling root (1 scala source)
+2023.11.12 21:56:05 INFO  time: compiled root in 0.28s
+Nov 12, 2023 9:56:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5738
+2023.11.12 21:56:10 INFO  compiling root (1 scala source)
+2023.11.12 21:56:10 INFO  time: compiled root in 0.27s
+2023.11.12 21:56:19 INFO  compiling root (1 scala source)
+2023.11.12 21:56:19 INFO  time: compiled root in 0.25s
+2023.11.12 21:56:25 INFO  compiling root (1 scala source)
+2023.11.12 21:56:25 INFO  time: compiled root in 0.24s
+2023.11.12 21:56:28 INFO  compiling root (1 scala source)
+2023.11.12 21:56:28 INFO  time: compiled root in 0.24s
+2023.11.12 21:56:35 INFO  compiling root (1 scala source)
+2023.11.12 21:56:35 INFO  time: compiled root in 0.21s
+2023.11.12 21:57:33 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:33 WARN  Could not find semantic tokens for: file:///D:/Practice/ScalaXVue/Contact-book-2/Contact-book-2/contact-book-app-backend/app/pekko/ContactActor.scala
+2023.11.12 21:57:33 INFO  time: compiled root in 0.41s
+2023.11.12 21:57:36 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:36 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 4h 47m 41.547s)
+2023.11.12 21:57:36 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:36 INFO  time: compiled root in 0.21s
+2023.11.12 21:57:38 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 4h 47m 43.865s)
+2023.11.12 21:57:38 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:38 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:38 INFO  time: compiled root in 0.25s
+2023.11.12 21:57:41 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:41 INFO  time: compiled root in 0.23s
+2023.11.12 21:57:46 INFO  compiling root (2 scala sources)
+2023.11.12 21:57:46 INFO  time: compiled root in 0.22s
+Nov 12, 2023 9:57:49 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5887
+2023.11.12 21:58:04 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:04 INFO  time: compiled root in 0.26s
+2023.11.12 21:58:07 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:07 INFO  time: compiled root in 0.29s
+2023.11.12 21:58:09 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:09 INFO  time: compiled root in 0.21s
+2023.11.12 21:58:12 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:12 INFO  time: compiled root in 0.24s
+2023.11.12 21:58:17 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:17 INFO  time: compiled root in 0.2s
+2023.11.12 21:58:25 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:25 INFO  time: compiled root in 0.23s
+2023.11.12 21:58:28 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:28 INFO  time: compiled root in 0.26s
+2023.11.12 21:58:30 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:30 INFO  time: compiled root in 0.3s
+2023.11.12 21:58:36 INFO  compiling root (2 scala sources)
+2023.11.12 21:58:36 INFO  time: compiled root in 0.24s
+Nov 12, 2023 9:58:44 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6132
+Nov 12, 2023 10:00:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6149
+Nov 12, 2023 10:00:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6155
+2023.11.12 22:00:36 INFO  compiling root (2 scala sources)
+2023.11.12 22:00:36 INFO  time: compiled root in 0.6s
+Nov 12, 2023 10:01:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6223
+2023.11.12 22:01:38 INFO  compiling root (1 scala source)
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+2023.11.12 22:01:38 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\controllers\PekkoController.scala
+Nov 12, 2023 10:01:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6290
+2023.11.12 22:01:39 INFO  time: compiled root in 1.23s
+Nov 12, 2023 10:02:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6343
+2023.11.12 22:03:29 INFO  time: code lens generation in 2.04s
+Nov 12, 2023 10:03:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6401
+Nov 12, 2023 10:07:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6422
+Nov 12, 2023 10:07:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6426
+2023.11.12 22:07:40 INFO  compiling root (1 scala source)
+2023.11.12 22:07:40 INFO  time: compiled root in 0.39s
+Nov 12, 2023 10:08:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6491
+Nov 12, 2023 10:08:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6527
+Nov 12, 2023 10:08:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6531
+Nov 12, 2023 10:09:01 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6545
+Nov 12, 2023 10:09:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6551
+2023.11.12 22:09:10 INFO  compiling root (1 scala source)
+2023.11.12 22:09:10 INFO  time: compiled root in 0.13s
+Nov 12, 2023 10:09:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6646
+Nov 12, 2023 10:09:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6668
+2023.11.12 22:09:39 INFO  compiling root (1 scala source)
+2023.11.12 22:09:39 INFO  time: compiled root in 0.49s
+2023.11.12 22:09:39 INFO  compiling root (1 scala source)
+2023.11.12 22:09:41 INFO  time: compiled root in 0.5s
+2023.11.12 22:10:07 INFO  compiling root (1 scala source)
+2023.11.12 22:10:07 INFO  time: compiled root in 0.13s
+Nov 12, 2023 10:10:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6723
+Nov 12, 2023 10:11:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6751
+Nov 12, 2023 10:11:19 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6759
+Nov 12, 2023 10:11:20 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6765
+Nov 12, 2023 10:11:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6777
+Nov 12, 2023 10:13:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6804
+Nov 12, 2023 10:13:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6812
+Nov 12, 2023 10:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6816
+Nov 12, 2023 10:13:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6821
+Nov 12, 2023 10:13:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6826
+Nov 12, 2023 10:13:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6833
+Nov 12, 2023 10:15:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6897
+Nov 12, 2023 10:15:41 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6911
+2023.11.12 22:15:53 INFO  compiling root (2 scala sources)
+2023.11.12 22:15:53 INFO  time: compiled root in 0.15s
+2023.11.12 22:16:39 INFO  compiling root (2 scala sources)
+2023.11.12 22:16:39 INFO  time: compiled root in 0.26s
+2023.11.12 22:16:47 INFO  compiling root (2 scala sources)
+2023.11.12 22:16:47 INFO  time: compiled root in 0.19s
+Nov 12, 2023 10:17:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7156
+2023.11.12 22:17:21 INFO  compiling root (2 scala sources)
+2023.11.12 22:17:21 INFO  time: compiled root in 0.54s
+2023.11.12 22:17:21 INFO  compiling root (2 scala sources)
+2023.11.12 22:17:23 INFO  time: compiled root in 1.58s
+Nov 12, 2023 10:17:34 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7175
+Nov 12, 2023 10:17:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7181
+2023.11.12 22:17:46 INFO  compiling root (1 scala source)
+2023.11.12 22:17:46 INFO  time: compiled root in 0.35s
+2023.11.12 22:17:49 INFO  compiling root (1 scala source)
+2023.11.12 22:17:49 INFO  time: compiled root in 0.32s
+2023.11.12 22:18:21 INFO  compiling root (1 scala source)
+2023.11.12 22:18:21 INFO  time: compiled root in 0.22s
+2023.11.12 22:18:25 INFO  compiling root (1 scala source)
+2023.11.12 22:18:25 INFO  time: compiled root in 0.12s
+2023.11.12 22:18:43 INFO  compiling root (1 scala source)
+2023.11.12 22:18:43 INFO  time: compiled root in 0.25s
+2023.11.12 22:18:46 INFO  compiling root (1 scala source)
+2023.11.12 22:18:46 INFO  time: compiled root in 0.29s
+2023.11.12 22:18:56 INFO  compiling root (1 scala source)
+2023.11.12 22:18:56 INFO  time: compiled root in 0.41s
+2023.11.12 22:19:27 INFO  compiling root-test (1 scala source)
+2023.11.12 22:19:29 INFO  time: compiled root-test in 1.91s
+Nov 12, 2023 10:19:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7426
+2023.11.12 22:20:17 INFO  compiling root (1 scala source)
+2023.11.12 22:20:18 INFO  time: compiled root in 1.11s
+2023.11.12 22:20:20 INFO  compiling root (1 scala source)
+2023.11.12 22:20:22 INFO  time: compiled root in 1.63s
+2023.11.12 22:20:33 INFO  compiling root (1 scala source)
+2023.11.12 22:20:33 INFO  time: compiled root in 0.92s
+2023.11.12 22:20:37 INFO  compiling root (1 scala source)
+2023.11.12 22:20:37 INFO  time: compiled root in 0.84s
+2023.11.12 22:20:45 INFO  compiling root (1 scala source)
+2023.11.12 22:20:45 INFO  time: compiled root in 0.83s
+2023.11.12 22:21:01 INFO  compiling root (1 scala source)
+2023.11.12 22:21:01 INFO  time: compiled root in 0.84s
+Nov 12, 2023 10:21:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_22-21-12-986.md
+2023.11.12 22:21:15 INFO  compiling root (1 scala source)
+2023.11.12 22:21:16 INFO  time: compiled root in 1.02s
+2023.11.12 22:21:22 INFO  compiling root (1 scala source)
+2023.11.12 22:21:22 INFO  time: compiled root in 0.8s
+2023.11.12 22:21:43 INFO  compiling root (1 scala source)
+2023.11.12 22:21:43 INFO  time: compiled root in 0.74s
+2023.11.12 22:21:54 INFO  compiling root (1 scala source)
+2023.11.12 22:21:54 INFO  time: compiled root in 0.72s
+2023.11.12 22:22:10 INFO  compiling root (1 scala source)
+2023.11.12 22:22:10 INFO  time: compiled root in 0.8s
+2023.11.12 22:22:24 INFO  compiling root (1 scala source)
+2023.11.12 22:22:24 INFO  time: compiled root in 0.43s
+2023.11.12 22:22:30 INFO  compiling root (1 scala source)
+2023.11.12 22:22:30 INFO  time: compiled root in 0.83s
+Nov 12, 2023 10:22:52 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7990
+Nov 12, 2023 10:22:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7997
+Nov 12, 2023 10:22:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8003
+Nov 12, 2023 10:23:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_22-23-06-459.md
+Nov 12, 2023 10:23:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_compiler-error_(root)_22-23-07-610.md
+Nov 12, 2023 10:23:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8090
+2023.11.12 22:23:24 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:23:24 INFO  compiling root (1 scala source)
+2023.11.12 22:23:24 INFO  time: compiled root in 0.15s
+2023.11.12 22:23:27 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:23:28 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:23:42 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:23:44 INFO  compiling root (1 scala source)
+2023.11.12 22:23:44 INFO  time: compiled root in 0.3s
+2023.11.12 22:25:54 INFO  compiling root (1 scala source)
+2023.11.12 22:25:54 INFO  time: compiled root in 0.32s
+2023.11.12 22:26:01 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:26:01 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+2023.11.12 22:26:01 INFO  compiling root (1 scala source)
+2023.11.12 22:26:01 INFO  time: compiled root in 0.35s
+2023.11.12 22:26:36 INFO  compiling root (1 scala source)
+2023.11.12 22:26:38 INFO  time: compiled root in 1.39s
+Nov 12, 2023 10:26:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8327
+2023.11.12 22:26:40 INFO  compiling root (1 scala source)
+2023.11.12 22:26:42 INFO  time: compiled root in 1.71s
+2023.11.12 22:27:13 INFO  compiling root (1 scala source)
+2023.11.12 22:27:13 INFO  time: compiled root in 0.86s
+2023.11.12 22:27:26 INFO  compiling root (1 scala source)
+2023.11.12 22:27:26 INFO  time: compiled root in 0.63s
+Nov 12, 2023 10:27:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8416
+Nov 12, 2023 10:27:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8422
+Nov 12, 2023 10:28:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8455
+2023.11.12 22:29:22 INFO  compiling root-test (1 scala source)
+2023.11.12 22:29:24 INFO  time: compiled root-test in 1.79s
+2023.11.12 22:30:20 WARN  Could not parse D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala, saved the current snapshot to Some(D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\.metals\.reports\metals-full\2023-11-12\r_stackoverflow_ContactActor.scala_(root)_22-30-20-364.md)
+2023.11.12 22:30:33 INFO  compiling root (1 scala source)
+2023.11.12 22:30:33 INFO  time: compiled root in 0.29s
+2023.11.12 22:30:48 INFO  compiling root (1 scala source)
+2023.11.12 22:30:48 INFO  time: compiled root in 0.13s
+2023.11.12 22:31:04 INFO  compiling root (1 scala source)
+2023.11.12 22:31:04 INFO  time: compiled root in 0.22s
+2023.11.12 22:31:16 INFO  compiling root (2 scala sources)
+2023.11.12 22:31:16 INFO  time: compiled root in 0.29s
+2023.11.12 22:31:31 INFO  compiling root (2 scala sources)
+2023.11.12 22:31:31 INFO  time: compiled root in 0.23s
+2023.11.12 22:31:33 INFO  compiling root (2 scala sources)
+2023.11.12 22:31:33 INFO  time: compiled root in 0.29s
+2023.11.12 22:31:44 INFO  compiling root (2 scala sources)
+2023.11.12 22:31:44 INFO  time: compiled root in 0.48s
+Nov 12, 2023 10:31:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8904
+2023.11.12 22:36:08 INFO  compiling root-test (1 scala source)
+2023.11.12 22:36:12 INFO  time: compiled root-test in 4.29s
+2023.11.12 22:36:14 INFO  compiling root-test (1 scala source)
+2023.11.12 22:36:16 INFO  time: compiled root-test in 2.28s
+2023.11.12 22:36:31 INFO  compiling root (3 scala sources and 1 java source)
+2023.11.12 22:36:36 INFO  time: compiled root in 5.05s
+Nov 12, 2023 10:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8971
+Nov 12, 2023 10:38:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8977
+2023.11.12 22:38:21 ERROR Failed to tokenize input for semantic tokens for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ContactActor.scala
+scala.meta.tokenizers.TokenizeException: <input>:17: error: unclosed character literal
+            println(s')
+                     ^
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:23)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter.syntaxError$(Reporter.scala:25)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.syntaxError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchSingleQuote$1(LegacyScanner.scala:407)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:412)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.lang.Thread.run(Thread.java:832)
+
+2023.11.12 22:38:25 INFO  compiling root (1 scala source)
+2023.11.12 22:38:25 INFO  time: compiled root in 0.42s
+2023.11.12 22:39:05 INFO  compiling root (1 scala source)
+2023.11.12 22:39:05 INFO  time: compiled root in 0.44s
+Nov 12, 2023 10:39:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9154
+2023.11.12 22:39:34 INFO  compiling root (1 scala source)
+2023.11.12 22:39:34 INFO  time: compiled root in 0.33s
+Nov 12, 2023 10:40:00 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9207
+Nov 12, 2023 10:40:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9213
+Nov 12, 2023 10:40:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9228
+Nov 12, 2023 10:40:18 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9234
+2023.11.12 22:40:56 INFO  compiling root (1 scala source)
+2023.11.12 22:40:56 INFO  time: compiled root in 0.2s
+2023.11.12 22:40:58 INFO  compiling root (1 scala source)
+2023.11.12 22:40:58 INFO  time: compiled root in 0.14s
+2023.11.12 22:41:07 INFO  compiling root (1 scala source)
+2023.11.12 22:41:07 INFO  time: compiled root in 0.18s
+Nov 12, 2023 10:41:10 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9369
+2023.11.12 22:41:23 INFO  compiling root (1 scala source)
+2023.11.12 22:41:23 INFO  time: compiled root in 0.18s
+2023.11.12 22:41:26 INFO  compiling root (1 scala source)
+2023.11.12 22:41:26 INFO  time: compiled root in 0.2s
+2023.11.12 22:41:26 INFO  compiling root (1 scala source)
+2023.11.12 22:41:27 INFO  time: compiled root in 0.69s
+2023.11.12 22:41:46 WARN  Could not load snapshot text for D:\Practice\ScalaXVue\Contact-book-2\Contact-book-2\contact-book-app-backend\app\pekko\ManagerActor.scala
+2023.11.12 22:41:46 INFO  compiling root (1 scala source)
+2023.11.12 22:41:46 INFO  time: compiled root in 0.67s
+2023.11.12 22:41:51 INFO  compiling root (1 scala source)
+2023.11.12 22:41:51 INFO  time: compiled root in 0.34s
+Nov 12, 2023 10:46:38 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9486
+Nov 12, 2023 10:46:50 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9492
+Nov 12, 2023 10:46:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9497
+Nov 12, 2023 10:47:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9503
+Nov 12, 2023 10:47:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9507
+Nov 12, 2023 10:47:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9512
+2023.11.12 22:55:54 INFO  compiling root (3 scala sources)
+2023.11.12 22:55:56 INFO  time: compiled root in 1.15s
+2023.11.12 22:56:36 INFO  compiling root (3 scala sources)
+2023.11.12 22:56:40 INFO  time: compiled root in 3.88s
+Nov 12, 2023 11:03:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9528
+Nov 12, 2023 11:03:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9533
+Nov 12, 2023 11:03:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9539
+2023.11.12 23:20:52 INFO  Shutting down server
+2023.11.12 23:20:52 INFO  shutting down Metals
+2023.11.12 23:20:52 INFO  Shut down connection with build server.
+2023.11.12 23:20:52 INFO  Shut down connection with build server.
+2023.11.12 23:20:52 INFO  Shut down connection with build server.
+2023.11.12 23:20:52 INFO  Exiting server
